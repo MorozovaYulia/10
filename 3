@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int N, s;
+    cin >> N;
+    s = 0;
+    for (int i = 1; i <= (2 * N - 1); i += 2) {
+        s += i;
+        cout << s << endl;
+    }
+}
